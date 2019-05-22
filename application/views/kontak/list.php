@@ -58,6 +58,8 @@ $this->load->view('template/sidebar');
                   <th>ID</th>
                   <th>Nama</th>
                   <th>Nomer</th>
+                  <th>Email</th>
+                  <th>Pesan</th>
                   <th><a href="<?=site_url('/kontak/create')?>">+ Tambah data<a></th>
                   <!-- <th>Reason</th> -->
                 </tr>
@@ -76,6 +78,8 @@ $this->load->view('template/sidebar');
               <td>$kontak->id</td>
               <td>$kontak->nama</td>
               <td>$kontak->nomor</td>
+              <td>$kontak->email</td>
+              <td>$kontak->pesan</td>
               <td>".anchor('kontak/edit/'.$kontak->id,'Edit')."
                   ".anchor('kontak/delete/'.$kontak->id,'Delete')."</td>
               </tr>";
