@@ -60,7 +60,7 @@ $this->load->view('template/sidebar');
                   <th>Nomer</th>
                   <th>Email</th>
                   <th>Pesan</th>
-                  <th><a href="<?=site_url('/kontak/create')?>">+ Tambah data<a></th>
+                  <th><a href="<?=site_url('/kontak/create')?>">+<a></th>
                   <!-- <th>Reason</th> -->
                 </tr>
 
@@ -85,7 +85,6 @@ $this->load->view('template/sidebar');
               </tr>";
     }
     ?>
-
               </table>
             </div>
             <!-- /.box-body -->

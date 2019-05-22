@@ -43,11 +43,22 @@ $this->load->view('template/sidebar');
                   <?php echo form_input('nama');?>
                   <!-- <input type="text" class="form-control" id="nama" placeholder="Enter Nama"> -->
                 </div>
+
                 <div class="form-group">
                   <label for="exampleInputPassword1">Nomer</label>
                   <?php echo form_input('nomor');?>
-                  <!-- <input type="number" class="form-control" id="nomor" placeholder="Enter Nomer"> -->
                 </div>
+
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <?php echo form_input('email');?>
+                </div>
+
+                <div class="form-group">
+                  <label for="Pesan">Pesan</label>
+                  <?php echo form_input('pesan');?>
+                </div>
+
 
 
               <!-- /.box-body -->

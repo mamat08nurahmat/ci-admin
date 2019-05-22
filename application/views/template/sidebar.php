@@ -47,19 +47,19 @@
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="<?php echo site_url('/kontak/') ?>"><i class="fa fa-circle-o"></i> Report Contact</a></li>
+                    <li><a href="<?php echo site_url('/kontak/') ?>"><i class="fa fa-circle-o"></i>List</a></li>
                     <!-- <li><a href="<?php echo site_url('/report/realisasi/') ?>"><i class="fa fa-circle-o"></i> report Realisasi</a></li> -->
                 </ul>
             </li>    
 
-            <li class="treeview">
+            <!-- <li class="treeview">
                 <a href="#">
                     <i class="fa fa-th"></i> <span>Testimoni</span> <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="<?php echo site_url('/testimoni/') ?>"><i class="fa fa-circle-o"></i>Manajemen Leads</a></li>
                 </ul>
-            </li>
+            </li> -->
 
 <!-- MENU SALES=================================================== -->
 
